@@ -9,22 +9,22 @@ function userExistsCallback(email, exists) {
 }
 
 function energised() {
-  document.getElementById("mp4vid").src = "../background/night-street.mp4";
+  document.getElementById("mp4vid").src = "background/night-street.mp4";
   document.getElementById("bgvid").load();
 }
 
 function inspired() {
-  document.getElementById("mp4vid").src = "../background/bokeh2.mp4";
+  document.getElementById("mp4vid").src = "background/bokeh2.mp4";
   document.getElementById("bgvid").load();
 }
 
 function mysterious() {
-  document.getElementById("mp4vid").src = "../background/raining-light.mp4";
+  document.getElementById("mp4vid").src = "background/raining-light.mp4";
   document.getElementById("bgvid").load();
 }
 
 function tranquil() {
-  document.getElementById("mp4vid").src = "../background/red-abstract.mp4";
+  document.getElementById("mp4vid").src = "background/red-abstract.mp4";
   document.getElementById("bgvid").load();
 }
 
@@ -40,7 +40,7 @@ function wdi2() {
   $("header").css({"background": "rgba(0, 0, 0, 0)", "opacity": "0.1"});
   $("div.g-signin2").css({"background": "rgba(0, 0, 0, 0)", "opacity": "0.03"});
   $("div#chicken").css({"background": "rgba(0, 0, 0, 0)", "opacity": "0.1"});
-  document.getElementById("mp4vid").src = "../background/wdi2.mp4";
+  document.getElementById("mp4vid").src = "background/wdi2.mp4";
   document.getElementById("bgvid").load();
 }
 
